@@ -1,0 +1,118 @@
+.header {
+  background-image: url(/public/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  height: 80vh;
+  position: relative;
+}
+
+.header-content {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-right: 48vw;
+}
+.header-content h4{
+  margin-bottom: -10px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #000000;
+  display: inline-block;
+  position: relative;
+}
+
+.header .fruit-image {
+  width: 28vh;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.stats button {
+  margin-right: 20px; 
+}
+
+.stats-info {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width: 30vw;
+}
+
+.stats span {
+  display: inline-block;
+  color: #333;
+}
+
+.b {
+  font-size: 50px;
+}
+
+b {
+  font-size: 50px;
+}
+
+.shade {
+  opacity: 0.5;
+  color: #777;
+  width: 40vw;
+  margin-top: -20px;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 30px;
+  background-color: #345835;
+  color: white;
+  padding: 12px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn svg {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.info {
+  font-size: 14px;
+  color: #777;
+  display: block; 
+  text-align: center; 
+  margin-top: -10px; 
+}
+
+.num {
+  font-size: 40px;
+  margin: 0 15px;
+  display: block; 
+  text-align: center; 
+  margin-bottom: -10px; 
+}
+
+.header-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  height: auto;
+  margin-right: 7vw;
+}

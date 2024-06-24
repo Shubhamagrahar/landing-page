@@ -1,0 +1,91 @@
+.navbar {
+  background-image: url(/public/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4; 
+  height: 60px; 
+  color: #000000;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 1vw;
+}
+
+.navbar-links li {
+  margin: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+ 
+}
+
+.navbar-links a:hover {
+  color: #18BC9C;
+}
+
+.navbar-links svg {
+  vertical-align: middle;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.icon-background {
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px #537856;
+  background-color: #537856;
+  color: white;
+
+}
+.navbar-icons .icon {
+  color: white;
+  font-size: 14px;
+}
+
+
+.connect {
+  color: white;
+  margin-right: -200px;
+}
+
+.connect svg {
+  vertical-align: middle; 
+}
+
+.icon {
+  font-size: 18px;
+  color: #000000; 
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #18BC9C;
+}
+
+.heading {
+  font-weight: 800;
+}
